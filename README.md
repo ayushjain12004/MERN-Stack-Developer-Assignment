@@ -69,3 +69,27 @@ Follow these steps to run the project locally:
 1. **Clone this repository to your local machine**:
    ```bash
    git clone https://github.com/ayushjain12004/MERN-Stack-Developer-Assignment
+
+2. **Go to the project directory**:
+   ```bash
+   cd SOCIAL-NETWORK
+
+3. **Install the dependencies for both the client and server side**:
+   ```bash
+npm install
+
+4. **Create a .env file in the server directory and set the following environment variables**:
+   ```bash
+   MONGO_URL=<your_mongodb_url>
+JWT_SECRET=<your_jwt_secret>
+PORT=<set_port>
+
+5. **Start the backend development server**:
+   ```bash
+   cd server && nodemon index.js
+
+6. **Open another terminal window and start the client**:
+   ```bash
+   cd frontend && npm start
+
+
