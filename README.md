@@ -76,13 +76,13 @@ Follow these steps to run the project locally:
 
 3. **Install the dependencies for both the client and server side**:
    ```bash
-npm install
+   npm install
 
 4. **Create a .env file in the server directory and set the following environment variables**:
    ```bash
    MONGO_URL=<your_mongodb_url>
-JWT_SECRET=<your_jwt_secret>
-PORT=<set_port>
+   JWT_SECRET=<your_jwt_secret>
+     PORT=<set_port>
 
 5. **Start the backend development server**:
    ```bash
